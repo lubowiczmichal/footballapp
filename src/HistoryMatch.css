@@ -1,0 +1,17 @@
+.HistoryMatch {
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#W {
+  background-color: green;
+}
+
+#D {
+  background-color: yellow;
+}
+
+#L {
+  background-color: red;
+}
