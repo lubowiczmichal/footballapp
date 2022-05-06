@@ -2,7 +2,7 @@ import HistoryMatch from "./HistoryMatch";
 import "./Table.css";
 
 function Table(props) {
-  return (
+  return props && props.table && props.table.table ? (
     <div className="Table">
       <thead>
         <tr>
@@ -48,6 +48,8 @@ function Table(props) {
         " "
       )}
     </div>
+  ) : (
+    <p className="Info">Please select one of leagues</p>
   );
 }
 

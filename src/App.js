@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Football league tables</h1>
+      <h1 className="Title">Football league tables</h1>
       <div className="buttonSection">
         {leagues.map((item) => (
           <LeagueButton

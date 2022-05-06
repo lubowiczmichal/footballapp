@@ -1,16 +1,19 @@
 .Table {
   border-collapse: collapse;
-  margin: 25px 0;
+  margin: 25px auto;
   font-size: 0.9em;
   font-family: sans-serif;
-  min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: fit-content;
 }
 
 .Table thead tr {
-  background-color: #009879;
-  color: #ffffff;
-  text-align: center;
+  background-color: #c2fbd7;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
 }
 
 .Team {
@@ -35,11 +38,26 @@
 .Table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
-
+.Table tbody tr:nth-of-type(odd) {
+  background-color: #bdbdbdf0;
+}
 .Table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #f3f3f3f0;
 }
 
 .Table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid rgba(44, 187, 99, 0.35);
+}
+
+.Info {
+  color: green;
+  text-shadow: 10px 10px 5px rgba(44, 187, 99);
+  width: fit-content;
+  display: flexbox;
+  text-align: center;
+  margin: auto;
+  padding-top: 2em;
+  font-size: xx-large;
+  user-select: none;
+  -webkit-user-select: none;
 }

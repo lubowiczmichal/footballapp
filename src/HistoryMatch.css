@@ -2,16 +2,20 @@
   display: inline-block;
   text-align: center;
   padding: 0.5em;
+  margin: 0.1em;
+  border-radius: 20%;
+  width: 1.1em;
+  height: 1.1em;
 }
 
 #W {
-  background-color: green;
+  background-color: #70da82;
 }
 
 #D {
-  background-color: yellow;
+  background-color: #ffcd58;
 }
 
 #L {
-  background-color: red;
+  background-color: #ff5c4d;
 }
