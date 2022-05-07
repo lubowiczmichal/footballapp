@@ -1,6 +1,6 @@
 .Table {
   border-collapse: collapse;
-  margin: 25px auto;
+  margin: 12em auto;
   font-size: 0.9em;
   font-family: sans-serif;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -57,7 +57,7 @@
   display: flexbox;
   text-align: center;
   margin: auto;
-  padding-top: 2em;
+  padding-top: 7em;
   font-size: xx-large;
   user-select: none;
   -webkit-user-select: none;
